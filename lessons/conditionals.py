@@ -2,12 +2,18 @@
 
 
 def less_than_10(num: int) -> bool:
-    """Tells me if a number is ledd than 10"""
+    """Tells me if a number is less than 10"""
+    dub: int = num * 2
+    dub = dub - 1
+    print(dub)
     if num < 10:
         print("small number")
     else:
         print("big number")
     print("Have a nice day!")
+
+
+less_than_10(num=7)
 
 
 def should_i_eat(hungry: bool) -> None:

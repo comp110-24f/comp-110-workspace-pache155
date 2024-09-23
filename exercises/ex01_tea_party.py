@@ -9,11 +9,11 @@ def main_planner(guests: int) -> None:
         "A cozy tea party for "
         + str(guests)
         + " people!"
-        + "\n Tea bags: "
+        + "\nTea bags: "
         + str(tea_bags(people=guests))
-        + "\n Treats: "
+        + "\nTreats: "
         + str(treats(people=guests))
-        + "\n Cost: $"
+        + "\nCost: $"
         + str(
             cost(tea_count=tea_bags(people=guests), treat_count=treats(people=guests))
         )
